@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    width: 50%;
+    margin: 50px auto ;
+    text-align: center;
+
+}
+
+
+#categories button{
+    cursor: pointer;
+}
+
+#categories button ,.card span{
+    background-color: rgb(126, 150, 230);
+    color: #ffff;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+   
+    margin-bottom: 20px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.card .name-icon{
+    padding: 20px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.card-category{
+    margin-top: 35px;
+}
